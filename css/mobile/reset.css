@@ -1,0 +1,32 @@
+/* css reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
+body { background:#fff;color:#333; font-size:14px; font-family: '微软雅黑',Verdana, Arial, Helvetica, sans-serif; min-width: 320px;max-width: 640px;overflow-x: hidden; }
+td,th,caption { font-size:14px; }
+
+h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }
+address, caption, cite, code, dfn, em, th, var { font-style:normal; font-weight:normal;}
+a { color:#333; text-decoration:none;}
+a:hover { text-decoration:none; }
+img { border:none; }
+ol,ul,li { list-style:none; }
+input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif; }
+table { border-collapse:collapse; }
+html {overflow-y: scroll;} 
+
+
+/* css common */
+.clear:after {content: "."; display: block; height:0; clear:both; visibility: hidden;overflow: hidden;}
+.clear { *zoom:1; }
+.content span{line-height: 30px;}
+.content p{line-height: 30px;}
+/*分页*/
+div.page span.total{display:inline-block;width: auto;margin-right:6px;padding:6px 11px;background:#2393e7;color:#fff;}
+div.page{padding:5px 10px;font-size:80%;margin:5px;margin-top:40px;color:#e91e22;text-align:right;}
+div.page a{border:#2393e7 1px solid;padding:6px 11px;background-position:50% bottom;margin:0 10px 0 0;text-decoration:none;background-color:#fff;}
+div.page a:hover{border:#2393e7 1px solid;padding:6px 11px;background-image:none;color:#fff;background-color:#2393e7;}
+div.page a:active{border:#2393e7 1px solid;padding:6px 11px;background-image:none;color:#fff;background-color:#2393e7;}
+div.page span.current{border:#2393e7 1px solid;padding:5px 10px;font-weight:bold;color:#fff;margin:0 10px 0 0;background-color:#2393e7;}
+div.page span.disabled{border:#2393e7 1px solid;padding:5px 10px;color:#2393e7;margin:0 10px 0 0;}
+div.page form,div.page form input{display:inline-block;}
+div.page form input#page{width: 30px;height: 30px;}
+div.page form input#go{width: 34px;height: 34px;line-height: 34px;text-align:center;background:#ccc;border:0;color:#fff}

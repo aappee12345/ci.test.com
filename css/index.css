@@ -1,0 +1,62 @@
+/*产品展示*/
+#lunbo{overflow: hidden;}
+p.cate-top{height: 60px;}
+.cate-title{width: 160px;height: 68px;margin: auto;margin-bottom: 30px;}
+.cate-title-left{float:left;width: 18px;height: 68px;background: url(../images/catetitle-l-000.png) no-repeat;}
+.cate-title-left-f{float:left;width: 18px;height: 68px;background: url(../images/catetitle-l-fff.png) no-repeat;}
+.cate-title-text{float:left;height: 50px;margin-top:12px;text-align: center;}
+.cate-title-text .zh{text-align: center;font-size: 24px;color: #000;line-height: 30px;}
+.cate-title-text .en{text-align: center;font-size: 12px;color: #000;font-family: Arial,'宋体';line-height: 18px;}
+.cate-title-text .zhf{text-align: center;font-size: 24px;color: #fff;line-height: 30px;}
+.cate-title-text .enf{text-align: center;font-size: 12px;color: #fff;font-family: Arial,'宋体';line-height: 18px;}
+.cate-title-right{float:left;width: 18px;height: 68px;background: url(../images/catetitle-r-000.png) no-repeat;}
+.cate-title-right-f{float:left;width: 18px;height: 68px;background: url(../images/catetitle-r-fff.png) no-repeat;}
+.index-product{width: 100%;padding-bottom: 45px;}
+.cate-list{display:inline-block;margin-bottom: 40px;}
+.cate-block{float:left;display:inline-block;height: 30px;line-height: 30px;margin-right:10px;margin-bottom:10px;color:#fff;padding-left: 10px;padding-right: 10px;background: #999;}
+.cate-block:hover{background: #0f81c7}
+
+.index-product{background: #f0f0f0;}
+.product-list{width: 1200px;overflow: hidden;margin-bottom: 50px;}
+.list{width: 1280px;}
+.pli{float:left;width: 340px;height: 250px;padding:10px;margin-right: 60px;background: #fff;overflow: hidden;}
+.pli:hover{background: #1DB841;}
+.pli .img{width: 340px;height: 200px;overflow: hidden;}
+.pli img{width: 340px;transition: .1s transform;transform: translateZ(0);}
+.pli img:hover{transform: scale(1.1, 1.1);transition: .3s transform;}
+.pli .title{width: 340px;height: 50px;line-height: 50px;font-size: 16px;color:#333;}
+.pli:hover .title{color:#fff;}
+.more{width: 138px;height: 38px;border:1px solid #333;text-align: center;line-height: 38px;margin: auto;}
+.more:hover{border:1px solid #1DB841;background: #1DB841;color:#fff;}
+.f{color:#fff;border: 1px solid #fff; }
+.more.f:hover{background: #fff;color:#1DB841;border:1px solid #fff;}
+/*公司简介*/
+.index-about{width: 100%;height: 420px;background: #1db841 url(../images/zizhi-bg.png) no-repeat center;}
+.about-desc{text-align: center;line-height: 26px;color:#fff;font-size: 14px;margin-bottom: 50px;}
+/*公司资质(同产品展示)*/
+/*工程案例*/
+.index-case{background: #fff;padding-bottom:70px;}
+.index-case .pli{float:left;width: 340px;height: 250px;padding:10px;margin-right: 60px;background: #f0f0f0;}
+.index-case .pli:hover{background: #1DB841;}
+/*内页--图片列表页*/
+.product-cates{width: 100%;height:65px;background: #1DB841;}
+.catelists{height:65px;line-height:65px;}
+.catelists .cates{display:inline-block;text-align:center;float:left;padding-left:10px;padding-right:10px;min-width:100px;color:#fff;}
+.catelists .cates:hover{font-weight: bold;}
+.catelists .cates.on{font-weight: bold;background: url(../images/cate-on.png) no-repeat center bottom;}
+.sproduct-cates{width: 100%;height:auto;background: #fff;}
+.scatelists{height:45px;line-height:45px;}
+.scatelists .cates{display:inline-block;text-align:center;float:left;padding-left:10px;padding-right:10px;min-width:100px;color:#333;}
+.scatelists .cates:hover{font-weight: bold;color:#1DB841;}
+.scatelists .cates.on{font-weight: bold;color:#1DB841;}
+.wrap .pli{float:left;width: 340px;height: 250px;padding:10px;margin-right: 60px;margin-bottom:50px;background: #fff;}
+.wrap .pli:hover{background: #1DB841;}
+.wrap .product-list{width: 1200px;overflow: hidden;padding-top: 50px;}
+.article-title{font-size: 24px;color:#333;text-align: center;line-height: 60px;}
+.article-desc{font-size: 12px;color:#a1a1a1;text-align: center;line-height: 20px;}
+.article-content{color:#333;min-height:500px;text-align:justify;text-indent:2em;line-height: 32px;margin-top: 30px;}
+
+.news-list{}
+.news-list .nli{width: 100%;height: 40px;line-height: 40px;border-bottom: 1px dashed #a1a1a1;list-style-type:circle;}
+.news-list .nli span.title{float:left;text-indent: 30px;}
+.news-list .nli span.time{float:right;}

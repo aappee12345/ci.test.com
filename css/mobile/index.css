@@ -1,0 +1,124 @@
+/*banner*/
+.lubo{ width: 100%;clear: both; position: relative;}
+.lubo_box{ position: relative; width: 100%; }
+.lubo_box li{ float: left;position: absolute; top: 0; left: 0; width: 100%;  opacity: 0;filter:alpha(opacity=0);}
+.lubo_box li img{ width: 100%;}
+.lubo_box img.word1{position:absolute;top:270px;left:20px;z-index: 25;}
+.lubo_box img.word2{position:absolute;top:288px;left:20px;z-index: 25;}
+/*小圆点*/
+.cir_box{ overflow: hidden; position: absolute; z-index: 100;}
+.cir_box li{ float: left;width: 16px; height: 16px; margin:0 5px; cursor: pointer; /*background: url(../images/radius-off.png);*/ }
+.cir_on{ /*background: url(../images/radius-on.png) !important;*/}
+
+
+@media only screen and (max-width: 380px) and (min-width: 319px) { 
+	.public-header .logo{width: 61.41%;}
+	p.cate-top{height: 30px;margin:0;}
+	.cate-title{width: 140px;height: 34px;margin: auto;margin-bottom: 20px;}
+	.cate-title-left{float:left;width: 10px;height: 40px;background: url(../images/catetitle-l-000.png) no-repeat;background-size: 100%;}
+	.cate-title-left-f{float:left;width: 10px;height: 40px;background: url(../images/catetitle-l-fff.png) no-repeat;background-size: 100%;}
+	.cate-title-text{float:left;height: 50px;margin-top:0;text-align: center;}
+	.cate-title-text .zh{text-align: center;font-size: 18px;color: #000;line-height: 22px;}
+	.cate-title-text .en{text-align: center;font-size: 10px;color: #000;font-family: Arial,'宋体';line-height: 12px;}
+	.cate-title-text .zhf{text-align: center;font-size: 18px;color: #fff;line-height: 22px;}
+	.cate-title-text .enf{text-align: center;font-size: 10px;color: #fff;font-family: Arial,'宋体';line-height: 12px;}
+	.cate-title-right{float:left;width: 10px;height: 40px;background: url(../images/catetitle-r-000.png) no-repeat;background-size: 100%;}
+	.cate-title-right-f{float:left;width: 10px;height: 40px;background: url(../images/catetitle-r-fff.png) no-repeat;background-size: 100%;}
+	.index-product{width: 94%;padding:0 3%;padding-bottom: 25px;background: #f0f0f0;}
+	.cate-list{display:inline-block;margin-bottom: 20px;}
+	.cate-block{float:left;display:inline-block;height: 24px;line-height: 24px;font-size:12px;margin-right:5px;margin-bottom:10px;color:#fff;padding-left: 5px;padding-right: 5px;background: #999;}
+	.cate-block:hover{background: #0f81c7}
+	.list{width: 108%;}
+	.pli{float:left;width: 37%;height: auto;padding:3%;padding-bottom:0;margin-right: 5%;margin-bottom: 5%;background: #fff;}
+	.pli:hover{background: #1DB841;}
+	.pli .img{width: 94%;height: auto;overflow: hidden;}
+	.pli img{width: 100%;}
+	.pli .title{width: 100%;height: 30px;line-height: 30px;font-size: 12px;color:#333;overflow: hidden;}
+	.pli:hover .title{color:#fff;}
+	.more{width: 80px;height: 30px;border:1px solid #333;text-align: center;line-height: 30px;margin: auto;margin-top: 5px;border-radius: 3px;}
+	.more:hover{border:1px solid #1DB841;background: #1DB841;color:#fff;}
+	.f{color:#fff;border: 1px solid #fff; }
+	.more.f:hover{background: #fff;color:#1DB841;border:1px solid #fff;}
+	/*公司简介*/
+	.index-about{width: 94%;padding:0 3%;padding-bottom: 25px;background: #1DB841 url(../images/phone-zizhi-bg.png) no-repeat center;background-size:100%; }
+	.about-desc{width: 100%;text-align: center;line-height: 20px;color:#fff;font-size: 12px;margin-bottom: 20px;}
+	/*公司资质(同产品展示)*/
+	/*工程案例*/
+	.index-case{background: #fff;padding-bottom:25px;}
+	.index-case .pli{float:left;width: 38%;height: auto;padding:3%;padding-bottom:0;margin-right: 5%;margin-bottom: 5%;background: #f0f0f0;}
+	.index-case .pli:hover{background: #1DB841;}
+	}
+@media only screen and (max-width: 500px) and (min-width: 381px) { 
+	.public-header .logo{width: 61.41%;}
+	p.cate-top{height: 30px;margin:0;}
+	.cate-title{width: 140px;height: 34px;margin: auto;margin-bottom: 20px;}
+	.cate-title-left{float:left;width: 10px;height: 40px;background: url(../images/catetitle-l-000.png) no-repeat;background-size: 100%;}
+	.cate-title-left-f{float:left;width: 10px;height: 40px;background: url(../images/catetitle-l-fff.png) no-repeat;background-size: 100%;}
+	.cate-title-text{float:left;height: 50px;margin-top:0;text-align: center;}
+	.cate-title-text .zh{text-align: center;font-size: 18px;color: #000;line-height: 22px;}
+	.cate-title-text .en{text-align: center;font-size: 10px;color: #000;font-family: Arial,'宋体';line-height: 12px;}
+	.cate-title-text .zhf{text-align: center;font-size: 18px;color: #fff;line-height: 22px;}
+	.cate-title-text .enf{text-align: center;font-size: 10px;color: #fff;font-family: Arial,'宋体';line-height: 12px;}
+	.cate-title-right{float:left;width: 10px;height: 40px;background: url(../images/catetitle-r-000.png) no-repeat;background-size: 100%;}
+	.cate-title-right-f{float:left;width: 10px;height: 40px;background: url(../images/catetitle-r-fff.png) no-repeat;background-size: 100%;}
+	.index-product{width: 94%;padding:0 3%;padding-bottom: 25px;background: #f0f0f0;}
+	.cate-list{display:inline-block;margin-bottom: 20px;}
+	.cate-block{float:left;display:inline-block;height: 32px;line-height: 32px;font-size:14px;margin-right:5px;margin-bottom:10px;color:#fff;padding-left: 5px;padding-right: 5px;background: #999;}
+	.cate-block:hover{background: #0f81c7;}
+	.list{width: 108%;}
+	.pli{float:left;width: 37%;height: auto;padding:3%;padding-bottom:0;margin-right: 5%;margin-bottom: 5%;background: #fff;}
+	.pli:hover{background: #1DB841;}
+	.pli .img{width: 94%;height: auto;overflow: hidden;}
+	.pli img{width: 100%;}
+	.pli .title{width: 100%;height: 30px;line-height: 30px;font-size: 12px;color:#333;overflow: hidden;}
+	.pli:hover .title{color:#fff;}
+	.more{width: 85px;height: 35px;border:1px solid #333;text-align: center;line-height: 35px;margin: auto;margin-top: 10px;border-radius: 3px;}
+	.more:hover{border:1px solid #1DB841;background: #1DB841;color:#fff;}
+	.f{color:#fff;border: 1px solid #fff; }
+	.more.f:hover{background: #fff;color:#1DB841;border:1px solid #fff;}
+	/*公司简介*/
+	.index-about{width: 94%;padding:0 3%;padding-bottom: 25px;background: #1DB841 url(../images/phone-zizhi-bg.png) no-repeat center;background-size:100%; }
+	.about-desc{width: 100%;text-align: center;line-height: 20px;color:#fff;font-size: 12px;margin-bottom: 20px;}
+	/*公司资质(同产品展示)*/
+	/*工程案例*/
+	.index-case{background: #fff;padding-bottom:25px;}
+	.index-case .pli{float:left;width: 38%;height: auto;padding:3%;padding-bottom:0;margin-right: 5%;margin-bottom: 5%;background: #f0f0f0;}
+	.index-case .pli:hover{background: #1DB841;}
+	}
+@media only screen and (min-width: 501px) { 
+	.public-header .logo{width: 61.41%;}
+	p.cate-top{height: 30px;margin:0;}
+	.cate-title{width: 140px;height: 34px;margin: auto;margin-bottom: 20px;}
+	.cate-title-left{float:left;width: 10px;height: 40px;background: url(../images/catetitle-l-000.png) no-repeat;background-size: 100%;}
+	.cate-title-left-f{float:left;width: 10px;height: 40px;background: url(../images/catetitle-l-fff.png) no-repeat;background-size: 100%;}
+	.cate-title-text{float:left;height: 50px;margin-top:0;text-align: center;}
+	.cate-title-text .zh{text-align: center;font-size: 18px;color: #000;line-height: 22px;}
+	.cate-title-text .en{text-align: center;font-size: 10px;color: #000;font-family: Arial,'宋体';line-height: 12px;}
+	.cate-title-text .zhf{text-align: center;font-size: 18px;color: #fff;line-height: 22px;}
+	.cate-title-text .enf{text-align: center;font-size: 10px;color: #fff;font-family: Arial,'宋体';line-height: 12px;}
+	.cate-title-right{float:left;width: 10px;height: 40px;background: url(../images/catetitle-r-000.png) no-repeat;background-size: 100%;}
+	.cate-title-right-f{float:left;width: 10px;height: 40px;background: url(../images/catetitle-r-fff.png) no-repeat;background-size: 100%;}
+	.index-product{width: 94%;padding:0 3%;padding-bottom: 25px;background: #f0f0f0;}
+	.cate-list{display:inline-block;margin-bottom: 20px;}
+	.cate-block{float:left;display:inline-block;height: 32px;line-height: 32px;font-size:14px;margin-right:5px;margin-bottom:10px;color:#fff;padding-left: 5px;padding-right: 5px;background: #999;}
+	.cate-block:hover{background: #0f81c7;}
+	.list{width: 108%;}
+	.pli{float:left;width: 37%;height: auto;padding:3%;padding-bottom:0;margin-right: 5%;margin-bottom: 5%;background: #fff;}
+	.pli:hover{background: #1DB841;}
+	.pli .img{width: 94%;height: auto;overflow: hidden;}
+	.pli img{width: 100%;}
+	.pli .title{width: 100%;height: 40px;line-height: 40px;font-size: 14px;color:#333;overflow: hidden;}
+	.pli:hover .title{color:#fff;}
+	.more{width: 100px;height: 40px;border:1px solid #333;font-size:16px;text-align: center;line-height: 40px;margin: auto;margin-top: 10px;border-radius: 3px;}
+	.more:hover{border:1px solid #1DB841;background: #1DB841;color:#fff;}
+	.f{color:#fff;border: 1px solid #fff; }
+	.more.f:hover{background: #fff;color:#1DB841;border:1px solid #fff;}
+	/*公司简介*/
+	.index-about{width: 94%;padding:0 3%;padding-bottom: 25px;background: #1DB841 url(../images/phone-zizhi-bg.png) no-repeat center;background-size:100%; }
+	.about-desc{width: 100%;text-align: center;line-height: 20px;color:#fff;font-size: 12px;margin-bottom: 20px;}
+	/*公司资质(同产品展示)*/
+	/*工程案例*/
+	.index-case{background: #fff;padding-bottom:25px;}
+	.index-case .pli{float:left;width: 38%;height: auto;padding:3%;padding-bottom:0;margin-right: 5%;margin-bottom: 5%;background: #f0f0f0;}
+	.index-case .pli:hover{background: #1DB841;}
+	}
