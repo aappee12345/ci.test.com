@@ -1,0 +1,123 @@
+html,body{
+	width : 100%;
+	height: 100%; font-size:14px; font-family:"寰蒋闆呴粦";
+}
+*{
+	padding: 0;
+	margin : 0; 
+}
+body{ background-color: #fff; color:#a7c6dc;
+}
+a{ color:#a7c6dc; text-decoration:none;}
+.content{
+	width   : 200px;
+	height  : 500px;
+	position: absolute;
+	top     : 0;
+	left    : 0;
+	bottom  : 0;
+	right   : 0;
+	margin  : auto;
+}
+
+.menuleft{
+	float: left;
+    width: 200px;
+    position: relative;
+    background: #1c2b36;
+    color: #a7c6dc;
+    z-index: 99;
+	height:auto;
+	}
+ 
+.cont_right {
+    float: left;
+    width: 100%;
+    margin-left: -200px;
+    overflow: hidden;
+}	
+.cont_right_box {
+    margin-left: 200px;
+    background: #fff;
+    overflow: hidden;
+    position: relative;
+}
+#iframeContent{ overflow:hidden;}
+#iframeContent iframe{ border:0;}
+ 
+/*浠ヤ笂css鍙笉鐢紝浠呬綔涓哄睍绀哄瑙傛牱寮�*/
+.list{
+	width : 200px;
+}
+.list ul{
+	list-style: none;
+}
+.list>ul>li{
+	width        : 100%;
+	 
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	-o-transition: .3s ease;
+			transition: .3s ease;
+}
+.list>ul>li p.title{
+	width      : 100%;
+	text-align : left; 
+	background : #1c2b36;
+	height     : 40px;
+	line-height: 40px;
+	padding    : 0;
+	border     : none;
+	position   : relative; border-bottom: 1px solid #1c2b36; cursor:pointer; 
+}
+.list>ul>li p[class=title]>span{
+	position: absolute;
+	right: 10%;
+}
+.list>ul>li p i{ margin-left:20px; margin-right:8px;color: #71fdff;}
+.list-se{
+	overflow: hidden;
+	display: none;
+}
+.list-se>p{
+	background: #1c2b36 !important;
+	color     :#fff;;
+}
+.list-se>li{
+	position: relative;
+	right   : -100%;
+	-webkit-transition: right .5s;
+	-moz-transition   : right .5s;
+	-o-transition     : right .5s;
+	transition        : right .5s;
+}
+.list-se>li a{ width:100%; display:block;}
+.list-se>li>p{
+	background  : #152028;
+	color       : #f0f0f0;
+	height      : 40px;
+	-webkit-box-sizing :border-box;
+	        box-sizing :border-box;
+	padding-left: 10px;
+	line-height : 40px;  
+	border-left : 5px solid #1c2b36; 
+	-webkit-transition   : border .5s; 
+			 transition  : border .5s;
+	-webkit-transition   : background .3s;
+			 transition  : background .3s;
+}
+.list-se>li>p:hover{
+	border-color: #71fdff; 
+	background  : #1c2b36;
+}
+.rightop{height:50px; margin-bottom:10px; background:#fff; line-height:50px; width:100%;box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05), 0 1px 0 rgba(0, 0, 0, 0.05);}
+.rightop p{ width:48%; float:left; padding-left:2%; color:#959595} 
+.topmenu{  text-align:right; width:50%; float:right} 
+.topmenu a{ padding: 0px 10px;min-height: 50px; font-size: 14px;color: #999c9e; text-decoration:none;}
+
+.dTreeNode #id0 { display: none }
+.dtree { margin-bottom: 10px;}
+.zzlogo{ border-bottom:1px solid #161e25}
+.nav-second-level{ border-left:5px solid #1c2b36;background: #152028; padding:0px 20px;}
+.clip{   line-height:30px;}
+
